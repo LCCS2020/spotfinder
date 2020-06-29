@@ -14,6 +14,13 @@ room.number = '12'
 room.available = false 
 rooms.push(room)
 
+room = {}
+room.location = 'Commons' 
+room.number = '15' 
+room.available = true 
+rooms.push(room)
+
+
 function getAvailRooms() {
   return rooms.filter(room => room.available)
 }
